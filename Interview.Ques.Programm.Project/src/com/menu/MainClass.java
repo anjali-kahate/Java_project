@@ -12,6 +12,7 @@ public static void main(String args[])
 {
 	MainClass m=new MainClass();
 	m.menu();
+	System.out.println("Application Exit");
 }
 public static void menu()
 {
