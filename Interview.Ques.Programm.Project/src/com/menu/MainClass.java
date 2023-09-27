@@ -31,6 +31,7 @@ public static void menu()
 	Scanner s=new Scanner(System.in);
 	String a=s.nextLine();
 	option(a);
+	System.out.println("Menu Exit");
 }
 public static void option(String a1)
 {
@@ -51,6 +52,7 @@ public static void option(String a1)
 		menu();
 		break;
 	}
+	System.out.println("All Exit");
 }
 //	public static void time2()
 //	{
@@ -62,4 +64,5 @@ public static void option(String a1)
 //			System.out.println(e.getMessage());
 //		}
 //}
+
 }
